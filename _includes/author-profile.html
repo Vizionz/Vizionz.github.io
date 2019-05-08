@@ -257,6 +257,14 @@
         </li>
       {% endif %}
 
+      {% if author.twitch %}
+        <li>
+          <a href="https://twitch.tv/{{ author.twitch }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-twitch" aria-hidden="true"></i> Twitch
+          </a>
+        </li>
+      {% endif %}
+
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
