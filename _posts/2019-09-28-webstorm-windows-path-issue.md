@@ -1,5 +1,5 @@
 ---
-title: "NodeJS Interpreter '%PATH%' Error Fix"
+title: "WebStorm - NodeJS Interpreter '%PATH%' Error Fix"
 last_modified_at: 2019-09-26T15:26:00-08:00
 comments: true
 categories:
@@ -12,11 +12,16 @@ tags:
   - CommandPrompt
   - PowerShell
   - NPM
+classes: 
+  - wide
 header:
+  overlay_image: /assets/images/logos/jb_beam.png
+  show_overlay_excerpt: false
   teaser: /assets/images/logos/webstorm_logo_300x300.png
+  og_image: /assets/images/logos/webstorm_logo_300x300.png
 ---
 
-The fix for the `No executable found in %PATH%` error when attempting to set the NodeJS interpreter and NPM package manager.
+The fix for the `No executable found in %PATH%` error when attempting to set the NodeJS interpreter and NPM package manager in JetBrains WebStorm.
 
 Install Sequence:
 
